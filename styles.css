@@ -57,7 +57,7 @@ a:hover {
 
 .concertItem {
 	background-color: rgba(255,255,255,.5);
-	padding: 10px 25px;
+	padding: 10px 25px 21px;
 	border-radius: 20px;
 }
 
@@ -89,6 +89,6 @@ body {
 	
 }
 
-input[type=text]:not(.browser-default) {
+input#artistInput {
 	font-size: 2rem;
 }
