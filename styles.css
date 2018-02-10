@@ -74,3 +74,21 @@ body {
 	background-size: 1400px;
 	padding: 0px 30px;
 }
+
+
+
+@media (max-width: 450px) {
+	.section {
+		min-width: 225px;
+		padding: 0 14px;
+	}
+	
+	#title label {
+		margin-left: 25px;
+	}
+	
+}
+
+input[type=text]:not(.browser-default) {
+	font-size: 2rem;
+}
